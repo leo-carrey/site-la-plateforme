@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;  
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar{  
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box; 
+  }
+  .navbar a{
+    color: grey;
+  }  
+  strong{
+    font-family: 'Roboto Slab', serif;
+  }  
+  .navbar .logo{
+    font-size: 5em;
+  }
+  .navbar .navlink ul{
+    display: flex;
+  }
+  .navbar .navlink ul li{
+    margin: 0 30px;
+  }
+  /* NAVIGATION */
+  .nom{
+    font-size: 40px ;
+  }
+  #haut{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    height: 1200px;
+    margin: 65px;
+  }
+  .texte{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 27.2px;
+  }
+  #gauche{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    height: 450px;
+  }
+  #tx{
+    font-size: 16px;
+    color: #7D7D7D;
+  }
+  #droite{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    margin: 10px;
+    color: #7D7D7D;
+    font-size: 16px;
+  }
+  .image{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  .row{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    height: 100px;
+    margin: 15px;
+  }
+  #bas{
+    background-color: #F6F6F6;
+    height: 760px;
+    margin: none;
+  }
+  #vid{
+    background-color: white;
+    height: 496px;
+  }
+  footer{
+    height: 404px;
+  }
