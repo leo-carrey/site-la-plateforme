@@ -1,0 +1,325 @@
+/*General parameter*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(238,238,238);
+    color: #336699;
+    font-weight: 500;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+    margin: 10px 0;
+}
+h1,h2,h3,h4,h5,h6{
+    padding-bottom: 10px;
+    line-height: 1em;
+    font-weight: 500;
+}
+h2{
+    font-size: 40px;
+}
+h4{
+    font-size: 22px;
+}
+p{
+    font-size: 22px;
+    line-height: 1.2em;
+}
+.banner .sub-p{
+    font-weight: 100;
+}
+.title{
+    text-align: center;
+}
+strong{
+    font-weight: 700;
+}
+button{
+    margin: 0 auto;
+    padding: 15px;
+    width: 340px;
+    border-radius: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 19px;
+    border: none;
+    margin-top: 80px;
+    transition: 0.2s;
+    letter-spacing: normal;
+}
+button:hover{
+    cursor: pointer;
+}
+.button-main:hover{
+    width: 370px;
+    letter-spacing: 0.8px;
+}
+/*Parameter on header*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: white;
+}
+header a img{
+    max-width: 400px;
+}
+header .nav-icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 10%;
+}
+/*Parameter on banner*/
+.banner{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: #336699;
+}
+.banner .left{
+    padding-top: 20px;
+    padding-right: 10%;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    max-width: 550px;
+    height: auto;
+}
+.banner .left{
+    max-width: 550px;
+    height: auto;
+}
+
+.banner .information-register{
+    padding-top: 20px;
+    padding-right: 10%;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner .information-register .sub-p{
+    font-weight: 100;
+    font-size: 12px;
+}
+.banner button{
+    background-color:#ff2063;
+    margin: 0;
+}
+.banner .right img{
+    width: 900px;
+    height: auto;
+}
+/*Parameter on plateforme links*/
+.links-container{
+    -webkit-animation: fadein 1.4s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+    padding-top: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+    width: 70%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 0px 20px 4px rgba(107, 107, 107, 0.2);
+}
+.links img{
+    margin-right: 20px;
+}
+.links-container button{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #ffca4b;
+}
+.plateforme-links .title{
+    -webkit-animation: fadein 1.4s;
+}
+
+/*Parameter on video-list*/
+
+.video-list .video-boxes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.video-list .video-boxes iframe{
+
+    width: 800px;
+    height: 600px;
+    margin: 20px;
+}
+/*Parameter on footer*/
+footer{
+    background-color: #3a3a3a;
+    justify-content: row;
+    color: white;
+}
+.footer-content{
+    padding: 50px 0;
+    margin: auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.footer-content .socials{
+    display: flex;
+    flex-direction: column;
+}
+.footer-content .socials-media{
+    display: flex;
+    flex-direction: row;
+}
+.footer-content .socials-media img{
+    width: 30px;
+    margin: 10px;
+}
+.footer-content .la-plateforme-links{
+    display: flex;
+    flex-direction: column;
+}
+.footer-content .formations-links{
+    display: flex;
+    flex-direction: column;
+}
+.footer-content .informations-links{
+    display: flex;
+    flex-direction: column;
+}
+.footer-content .logo-footer1{
+    width: 350px;
+    height: auto;
+}
+.footer-content a{
+    color:white;
+}
+.footer-content .logo-footer2 {
+    width: 170px;
+    height: auto;
+    margin: 60px 0;
+}
+.legals-informations{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+.legals-informations p{
+    font-size: 16px;
+}
+/*Qui sommes nous ?*/
+
+/*Parameter on video-list-qsn*/
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.who-we-are{
+    display: flex;
+    flex-direction: column;
+}
+.who-we-are-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.who-we-are-text p{ 
+    width: 460px;
+    margin: 20px;
+    font-size: 16px;
+    line-height: 1.7em;
+    color: #7D7D7D;
+}
+.our-partner{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+.our-certifications{
+    display: flex;  
+    flex-direction: column;
+    flex-wrap: wrap; 
+    width: 1000px; 
+}
+.our-certifications p{
+    color: #7D7D7D;
+    font-size: 16px;
+    line-height: 1.7em;
+}
+.certifications-text {
+    display: flex;  
+    flex-direction: row;  
+    flex-wrap: wrap;  
+}
+.certifications-text img{
+    height: 90px;
+}
+.certifications-text .col-1, .col-2, .col-3, .col-4{
+    margin: 10px;
+    width: 230px;
+}
+
+.video-list-qsn{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color:  white;
+    padding-top: 20px;
+    margin-top: 80px;
+}
+.video-list-qsn .video-boxes{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.video-list-qsn .video-box{
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+}
+.partner-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.partner-img img{
+    height: 80px;
+}
